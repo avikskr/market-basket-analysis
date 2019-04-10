@@ -17,10 +17,10 @@ DESCRIPTION OF OUTPUT:
     [apples] => [avocado,baguette] {0.111888 , 0.356688}
     [apples] => [hering,corned_b,olives] {0.108891 , 0.347134}
     [artichok] => [hering,avocado] {0.116883 , 0.383607}    
-The support and confidence value of each transaction set is calculated.
+The support and confidence value of each transaction is calculated.
 
 System used:
-    OS : centOS 6.5
+    centOS 6.5
     Hadoop 2.7.1+
     Java JDK 1.7+
     Eclipse
