@@ -26,7 +26,7 @@ System used:
     Eclipse
     
 # to run the code 
-========================
+
  * put sample data file 'transactions' into hdfs as input directory.
  * add external jar files into eclipse projects.
  * export to jar for both the map reduce jobs(ie. mba_hadoop_1,mba_hadoop_2)
@@ -36,7 +36,7 @@ System used:
     
 The output of the 1st job is fed to the input of the 2nd job.
 
-#Further Improvement can be done:
+#Further Improvement can be done : 
     * maven/gradle can be used for automatic build.
     * The two map-reduce jobs can be chained together, so that they can run one after another with a single command.
     * support and/or confidence threshold values can be set dynamically by taking command line argument.
