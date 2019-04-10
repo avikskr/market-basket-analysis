@@ -31,8 +31,8 @@ System used:
  * add external jar files into eclipse projects.
  * export to jar for both the map reduce jobs(ie. mba_hadoop_1,mba_hadoop_2)
  * run the below commands in terminal to perform the 2 jobs as following:
-    1) hadoop jar hadoop_1.jar mit.mba.hadoop.MBADriver [input_dir] [1st_job_putput_dir]
-    2) hadoop jar hadoop_2.jar mit.mba.hadoop.MBADriver [1st_job_putput_dir] [2nd_job_putput_dir]
+    1) hadoop jar hadoop_1.jar mit.mba.hadoop.MBADriver [input_dir] [1st_job_output_dir]
+    2) hadoop jar hadoop_2.jar mit.mba.hadoop.MBADriver [1st_job_output_dir] [2nd_job_output_dir]
     
 The output of the 1st job is fed to the input of the 2nd job.
 
